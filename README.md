@@ -1,6 +1,5 @@
 Love cats and programming
-
-   ／l、             
+  ／l、             
 （ﾟ､ ｡ ７         
-   l  ~ヽ       
-   じしf_,)ノ
+  l  ~ヽ       
+  じしf_,)ノ
