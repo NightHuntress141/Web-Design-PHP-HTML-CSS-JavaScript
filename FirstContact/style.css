@@ -1,0 +1,140 @@
+/* My First CSS page! */
+
+/* Definindo os padrões dos parágrafos e headings */
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+ul{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* Definindo os padrões do corpo */
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/* Definindo os padrões do header */
+header{
+    background-color: #991420;
+    color:rgb(0, 0, 0);
+    height: 80px;
+    display: flex;
+    align-items: center;              /* Alinhando os elementos ao centro */
+    padding: 20px;                    /* Distância dos elementos para as bordas */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Definindo os padrões dos divs pelo seletor # */
+#div_esquerda{
+    background-image: url(blood.jpg);
+    background-size: cover;           /* faz a imagem cobrir todo o espaço */
+    background-repeat: no-repeat;     /* impede que a imagem se repita */
+    background-position: center;      /* centraliza a imagem */
+    min-height: 500px;
+    width: 60%;
+    float: left;                      /* Definindo div para esquerda */
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+
+#div_direita{
+    background-color: rgb(126, 126, 126);
+    min-height: 200px;
+    width: 40%;
+    float: right;                     /* Definindo div para direita */
+}
+
+/* Definindo os padrões do footer */
+footer{
+    clear: both;                      /* Impede que o footer desapareça com a divisão dos divs */
+    background-color: #991420;
+    height: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    padding: 20px;
+}
+
+/* Definindo os padrões do título no header */
+#titulo{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #111111;
+    text-align: center;
+    float:right;
+
+    
+    
+    margin-top: 20px;
+}
+
+/* Definindo os padrões do menu no header */
+#menu{
+    display: inline;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #111111;
+
+}
+
+#menu a:hover{                             /* Efeito ao passar o mouse */
+    background-color: black;        
+}
+
+/* Definindo os padrões da imagem no header */
+#logo{
+    max-width: 80px;
+    max-height: 100%;                 /* ajuste a altura conforme necessário */
+    height: auto;
+    width: auto;
+
+    
+ }
+ 
+ /* Definindo os padrões do container criado a partir de uma classe */
+ .container {
+    max-width: 100%;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+ } 
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);       /* Define como preto, mas com transparência */
+    padding: 10px 0px 10px 0px;
+}
+
+ /* Definindo os padrões de todo o resto dos elementos */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
